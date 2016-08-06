@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A7C034F75A40548BA5674D9 /* libPods-Block循环引用.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65E794E7D7F9A99BDCDA21D /* libPods-Block循环引用.a */; };
 		F1D5F7661D533C0200271C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D5F7651D533C0200271C2F /* main.m */; };
 		F1D5F7691D533C0200271C2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D5F7681D533C0200271C2F /* AppDelegate.m */; };
 		F1D5F76C1D533C0200271C2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D5F76B1D533C0200271C2F /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		F1D5F7741D533C0200271C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D5F7721D533C0200271C2F /* LaunchScreen.storyboard */; };
 		F1D5F77F1D533C0200271C2F /* Block____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D5F77E1D533C0200271C2F /* Block____Tests.m */; };
 		F1D5F78A1D533C0200271C2F /* Block____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D5F7891D533C0200271C2F /* Block____UITests.m */; };
+		F1D5F79A1D533DA800271C2F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D5F7981D533DA800271C2F /* TestViewController.m */; };
+		F1D5F79B1D533DA800271C2F /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D5F7991D533DA800271C2F /* TestViewController.xib */; };
+		F1D5F79E1D533F4D00271C2F /* TestModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D5F79D1D533F4D00271C2F /* TestModel1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DD03A455111629CD028DBED /* Pods-Block循环引用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Block循环引用.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Block循环引用/Pods-Block循环引用.debug.xcconfig"; sourceTree = "<group>"; };
+		88DF2EC7483D86422EE28417 /* Pods-Block循环引用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Block循环引用.release.xcconfig"; path = "Pods/Target Support Files/Pods-Block循环引用/Pods-Block循环引用.release.xcconfig"; sourceTree = "<group>"; };
+		A65E794E7D7F9A99BDCDA21D /* libPods-Block循环引用.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Block循环引用.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D5F7611D533C0200271C2F /* Block循环引用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block循环引用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D5F7651D533C0200271C2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1D5F7671D533C0200271C2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		F1D5F7851D533C0200271C2F /* Block循环引用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block循环引用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D5F7891D533C0200271C2F /* Block____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Block____UITests.m"; sourceTree = "<group>"; };
 		F1D5F78B1D533C0200271C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D5F7971D533DA800271C2F /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F1D5F7981D533DA800271C2F /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F1D5F7991D533DA800271C2F /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		F1D5F79C1D533F4D00271C2F /* TestModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel1.h; sourceTree = "<group>"; };
+		F1D5F79D1D533F4D00271C2F /* TestModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7C034F75A40548BA5674D9 /* libPods-Block循环引用.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101FAE44C36444641D36A58F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65E794E7D7F9A99BDCDA21D /* libPods-Block循环引用.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3927C9EDA4021B782C7C666C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD03A455111629CD028DBED /* Pods-Block循环引用.debug.xcconfig */,
+				88DF2EC7483D86422EE28417 /* Pods-Block循环引用.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F1D5F7581D533C0100271C2F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				F1D5F77D1D533C0200271C2F /* Block循环引用Tests */,
 				F1D5F7881D533C0200271C2F /* Block循环引用UITests */,
 				F1D5F7621D533C0200271C2F /* Products */,
+				3927C9EDA4021B782C7C666C /* Pods */,
+				101FAE44C36444641D36A58F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +142,11 @@
 				F1D5F7721D533C0200271C2F /* LaunchScreen.storyboard */,
 				F1D5F7751D533C0200271C2F /* Info.plist */,
 				F1D5F7641D533C0200271C2F /* Supporting Files */,
+				F1D5F79C1D533F4D00271C2F /* TestModel1.h */,
+				F1D5F79D1D533F4D00271C2F /* TestModel1.m */,
+				F1D5F7971D533DA800271C2F /* TestViewController.h */,
+				F1D5F7981D533DA800271C2F /* TestViewController.m */,
+				F1D5F7991D533DA800271C2F /* TestViewController.xib */,
 			);
 			path = "Block循环引用";
 			sourceTree = "<group>";
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1D5F78E1D533C0200271C2F /* Build configuration list for PBXNativeTarget "Block循环引用" */;
 			buildPhases = (
+				F05E4C83466279500A41C337 /* [CP] Check Pods Manifest.lock */,
 				F1D5F75D1D533C0100271C2F /* Sources */,
 				F1D5F75E1D533C0100271C2F /* Frameworks */,
 				F1D5F75F1D533C0100271C2F /* Resources */,
+				1B15562A52D85283911C3A57 /* [CP] Embed Pods Frameworks */,
+				FE605858188D07665B5975DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +285,7 @@
 			files = (
 				F1D5F7741D533C0200271C2F /* LaunchScreen.storyboard in Resources */,
 				F1D5F7711D533C0200271C2F /* Assets.xcassets in Resources */,
+				F1D5F79B1D533DA800271C2F /* TestViewController.xib in Resources */,
 				F1D5F76F1D533C0200271C2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,13 +306,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B15562A52D85283911C3A57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Block循环引用/Pods-Block循环引用-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05E4C83466279500A41C337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE605858188D07665B5975DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Block循环引用/Pods-Block循环引用-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1D5F75D1D533C0100271C2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D5F79E1D533F4D00271C2F /* TestModel1.m in Sources */,
 				F1D5F76C1D533C0200271C2F /* ViewController.m in Sources */,
 				F1D5F7691D533C0200271C2F /* AppDelegate.m in Sources */,
+				F1D5F79A1D533DA800271C2F /* TestViewController.m in Sources */,
 				F1D5F7661D533C0200271C2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +504,7 @@
 		};
 		F1D5F78F1D533C0200271C2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD03A455111629CD028DBED /* Pods-Block循环引用.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Block循环引用/Info.plist";
@@ -424,6 +516,7 @@
 		};
 		F1D5F7901D533C0200271C2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DF2EC7483D86422EE28417 /* Pods-Block循环引用.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Block循环引用/Info.plist";
@@ -498,6 +591,7 @@
 				F1D5F7901D533C0200271C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D5F7911D533C0200271C2F /* Build configuration list for PBXNativeTarget "Block循环引用Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +600,7 @@
 				F1D5F7931D533C0200271C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D5F7941D533C0200271C2F /* Build configuration list for PBXNativeTarget "Block循环引用UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +609,7 @@
 				F1D5F7961D533C0200271C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

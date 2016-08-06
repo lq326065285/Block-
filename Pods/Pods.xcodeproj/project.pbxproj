@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E13117671BB81E3D7DBD58365C6089 /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DF085ED1E501D7EBDE69E16EF59755 /* UIApplication+MemoryLeak.m */; };
+		1BDAD753F745897EB3BEC7599C17EB50 /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DA768F5CCFDFFD5AAD10CEC4CF13E202 /* UITabBarController+MemoryLeak.m */; };
+		1C74D1381F086E7E4219634A4070CFAC /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = A9047826525E38FBA33927C72F848728 /* UINavigationController+MemoryLeak.m */; };
+		29E00739EB07162344C228BCDBF44029 /* MLeaksFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = CF411225EC4C940C4EB361498C697AA3 /* MLeaksFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361C0708401DAE74DE6730F89DF22DCA /* UISplitViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 7885B53904CE004940938082BF0A9965 /* UISplitViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A67198A790ACDB1CDE6BA9B9D01F971 /* NSObject+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC007630A6E87505DC1B50D93B32872 /* NSObject+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517913CC990A29A834AB89D510F8B867 /* UITabBarController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CB955F232955911FCC4735F06B199B /* UITabBarController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71416C226BB6BE5D275E0E795B9C1B7D /* Pods-Block循环引用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDF5524B3CB521055755BB1A49FD38B /* Pods-Block循环引用-dummy.m */; };
+		7179975CF01B391F5D6483AA56A11881 /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F99355A966DA19BDEE323C6BC272B973 /* UIPageViewController+MemoryLeak.m */; };
+		82CA06702662AA88DC377919CCAE2F41 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F1B8B29096257240D0F2EF05A324EE /* UIView+MemoryLeak.m */; };
+		A43D5850282B05C7F7D6D891E275F156 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A7C5D43EAF7C8511A224A86E1568A539 /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB5A0495F4A2AD3909069F85B7C4A5A /* NSObject+MemoryLeak.m */; };
+		A9E4B977E2ADABBC67AC75F12C83EC2A /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 66062CC919005685D61F11272ED449B6 /* UIViewController+MemoryLeak.m */; };
+		B44B16912A4695FDF4AC0CFB4888F726 /* UINavigationController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = B9600639DEE872AE3CA5FAEE2ADC7912 /* UINavigationController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2EC622A2B51D16E0FB379BF68E043D9 /* UIViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C195BAC7D57CBD3CD290799E10D98C /* UIViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C933CEDB8F9B93F59B242456842BAFBD /* UIApplication+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4ABC5A7994FF72AD774DAC3A024406 /* UIApplication+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5177FFBB3CD3305CEBAC626C505CA6D /* UIPageViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = C6FF6C8567AB7428D9DF496DD49A392B /* UIPageViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9A60749580A946F0D47D120AEA643D3 /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CF4D5D6E8F4456925C18BAF0F9E7A /* UISplitViewController+MemoryLeak.m */; };
+		FB5E1FAA3FCF40A21417D1188703E898 /* MLeaksFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED80C72F967FE23F59C978F411AE2EC /* MLeaksFinder-dummy.m */; };
+		FDF603BE05B37D85ADD138F4BA998477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FE6C1F93877CDD2CE70394E37FC2A374 /* UIView+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = D153CFEED903F8214CABB5E4C6E53005 /* UIView+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26AD92C1A39AAB97BECAECEB550E0AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C3ED4629E9EDBD4BBB92DE6CDBDC2E;
+			remoteInfo = MLeaksFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DF085ED1E501D7EBDE69E16EF59755 /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MemoryLeak.m"; path = "MLeaksFinder/UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		0BB5A0495F4A2AD3909069F85B7C4A5A /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MemoryLeak.m"; path = "MLeaksFinder/NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		2AD87E5E72B5A84E23970FC59DC38A45 /* libMLeaksFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLeaksFinder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C195BAC7D57CBD3CD290799E10D98C /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MemoryLeak.h"; path = "MLeaksFinder/UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		3CC007630A6E87505DC1B50D93B32872 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MemoryLeak.h"; path = "MLeaksFinder/NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		52207FDA3A6C70CF4257D0217201386C /* libPods-Block循环引用.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Block循环引用.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66062CC919005685D61F11272ED449B6 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MemoryLeak.m"; path = "MLeaksFinder/UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		6ED80C72F967FE23F59C978F411AE2EC /* MLeaksFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLeaksFinder-dummy.m"; sourceTree = "<group>"; };
+		7885B53904CE004940938082BF0A9965 /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISplitViewController+MemoryLeak.h"; path = "MLeaksFinder/UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		7C4ABC5A7994FF72AD774DAC3A024406 /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MemoryLeak.h"; path = "MLeaksFinder/UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		8661A3703F1AAD2D84FD9F7754E4AB6B /* Pods-Block循环引用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Block循环引用.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3CF4D5D6E8F4456925C18BAF0F9E7A /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISplitViewController+MemoryLeak.m"; path = "MLeaksFinder/UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		900348150673B07A3513B0BB3EEA5E18 /* Pods-Block循环引用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Block循环引用.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9910B220BEB730F81BB14D36B135D244 /* MLeaksFinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLeaksFinder.xcconfig; sourceTree = "<group>"; };
+		994D7EED8760DCE064A1AD4663B230CB /* Pods-Block循环引用-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Block循环引用-resources.sh"; sourceTree = "<group>"; };
+		A71697889E3017E1FA16647A5665F034 /* Pods-Block循环引用-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Block循环引用-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8CB955F232955911FCC4735F06B199B /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+MemoryLeak.h"; path = "MLeaksFinder/UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		A9047826525E38FBA33927C72F848728 /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MemoryLeak.m"; path = "MLeaksFinder/UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		B9600639DEE872AE3CA5FAEE2ADC7912 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+MemoryLeak.h"; path = "MLeaksFinder/UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		B9F1B8B29096257240D0F2EF05A324EE /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MemoryLeak.m"; path = "MLeaksFinder/UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		BF75566E4C1F2F6DD5E7559DEF23F944 /* Pods-Block循环引用-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Block循环引用-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3C902B8B454C9B79F0C2A8DD92A567E /* Pods-Block循环引用-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Block循环引用-frameworks.sh"; sourceTree = "<group>"; };
+		C6FF6C8567AB7428D9DF496DD49A392B /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPageViewController+MemoryLeak.h"; path = "MLeaksFinder/UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		CBDF5524B3CB521055755BB1A49FD38B /* Pods-Block循环引用-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Block循环引用-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF411225EC4C940C4EB361498C697AA3 /* MLeaksFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksFinder.h; path = MLeaksFinder/MLeaksFinder.h; sourceTree = "<group>"; };
+		D153CFEED903F8214CABB5E4C6E53005 /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MemoryLeak.h"; path = "MLeaksFinder/UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		DA768F5CCFDFFD5AAD10CEC4CF13E202 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+MemoryLeak.m"; path = "MLeaksFinder/UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		F0B94544A53AEE14DD45615819757E62 /* MLeaksFinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLeaksFinder-prefix.pch"; sourceTree = "<group>"; };
+		F99355A966DA19BDEE323C6BC272B973 /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPageViewController+MemoryLeak.m"; path = "MLeaksFinder/UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4CDCED8050CD990DAFCC3F6D4894B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF603BE05B37D85ADD138F4BA998477 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F0967D3B90C898DD0DC75F76D03013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43D5850282B05C7F7D6D891E275F156 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5DBA34A2C8E225510265E5D0B85947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD87E5E72B5A84E23970FC59DC38A45 /* libMLeaksFinder.a */,
+				52207FDA3A6C70CF4257D0217201386C /* libPods-Block循环引用.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A54D93F68C4E3B969B0803574275589 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F909CC9686DD38293424BC30BF10E5D /* Pods-Block循环引用 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8C4839A024503172F0E96DFEF403D834 /* Pods */,
+				2E5DBA34A2C8E225510265E5D0B85947 /* Products */,
+				5A54D93F68C4E3B969B0803574275589 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C4839A024503172F0E96DFEF403D834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA9BC0C5EAD90C54EC30556EE9C92D /* MLeaksFinder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F909CC9686DD38293424BC30BF10E5D /* Pods-Block循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				BF75566E4C1F2F6DD5E7559DEF23F944 /* Pods-Block循环引用-acknowledgements.markdown */,
+				A71697889E3017E1FA16647A5665F034 /* Pods-Block循环引用-acknowledgements.plist */,
+				CBDF5524B3CB521055755BB1A49FD38B /* Pods-Block循环引用-dummy.m */,
+				C3C902B8B454C9B79F0C2A8DD92A567E /* Pods-Block循环引用-frameworks.sh */,
+				994D7EED8760DCE064A1AD4663B230CB /* Pods-Block循环引用-resources.sh */,
+				8661A3703F1AAD2D84FD9F7754E4AB6B /* Pods-Block循环引用.debug.xcconfig */,
+				900348150673B07A3513B0BB3EEA5E18 /* Pods-Block循环引用.release.xcconfig */,
+			);
+			name = "Pods-Block循环引用";
+			path = "Target Support Files/Pods-Block循环引用";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9DA9BC0C5EAD90C54EC30556EE9C92D /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				CF411225EC4C940C4EB361498C697AA3 /* MLeaksFinder.h */,
+				3CC007630A6E87505DC1B50D93B32872 /* NSObject+MemoryLeak.h */,
+				0BB5A0495F4A2AD3909069F85B7C4A5A /* NSObject+MemoryLeak.m */,
+				7C4ABC5A7994FF72AD774DAC3A024406 /* UIApplication+MemoryLeak.h */,
+				02DF085ED1E501D7EBDE69E16EF59755 /* UIApplication+MemoryLeak.m */,
+				B9600639DEE872AE3CA5FAEE2ADC7912 /* UINavigationController+MemoryLeak.h */,
+				A9047826525E38FBA33927C72F848728 /* UINavigationController+MemoryLeak.m */,
+				C6FF6C8567AB7428D9DF496DD49A392B /* UIPageViewController+MemoryLeak.h */,
+				F99355A966DA19BDEE323C6BC272B973 /* UIPageViewController+MemoryLeak.m */,
+				7885B53904CE004940938082BF0A9965 /* UISplitViewController+MemoryLeak.h */,
+				8F3CF4D5D6E8F4456925C18BAF0F9E7A /* UISplitViewController+MemoryLeak.m */,
+				A8CB955F232955911FCC4735F06B199B /* UITabBarController+MemoryLeak.h */,
+				DA768F5CCFDFFD5AAD10CEC4CF13E202 /* UITabBarController+MemoryLeak.m */,
+				D153CFEED903F8214CABB5E4C6E53005 /* UIView+MemoryLeak.h */,
+				B9F1B8B29096257240D0F2EF05A324EE /* UIView+MemoryLeak.m */,
+				37C195BAC7D57CBD3CD290799E10D98C /* UIViewController+MemoryLeak.h */,
+				66062CC919005685D61F11272ED449B6 /* UIViewController+MemoryLeak.m */,
+				D9B59DC9F53B8CDB97AB8D699C6ABC75 /* Support Files */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
+		D9B59DC9F53B8CDB97AB8D699C6ABC75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9910B220BEB730F81BB14D36B135D244 /* MLeaksFinder.xcconfig */,
+				6ED80C72F967FE23F59C978F411AE2EC /* MLeaksFinder-dummy.m */,
+				F0B94544A53AEE14DD45615819757E62 /* MLeaksFinder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLeaksFinder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E233645FC07E98B72F47725ED9084A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E00739EB07162344C228BCDBF44029 /* MLeaksFinder.h in Headers */,
+				3A67198A790ACDB1CDE6BA9B9D01F971 /* NSObject+MemoryLeak.h in Headers */,
+				C933CEDB8F9B93F59B242456842BAFBD /* UIApplication+MemoryLeak.h in Headers */,
+				B44B16912A4695FDF4AC0CFB4888F726 /* UINavigationController+MemoryLeak.h in Headers */,
+				D5177FFBB3CD3305CEBAC626C505CA6D /* UIPageViewController+MemoryLeak.h in Headers */,
+				361C0708401DAE74DE6730F89DF22DCA /* UISplitViewController+MemoryLeak.h in Headers */,
+				517913CC990A29A834AB89D510F8B867 /* UITabBarController+MemoryLeak.h in Headers */,
+				FE6C1F93877CDD2CE70394E37FC2A374 /* UIView+MemoryLeak.h in Headers */,
+				C2EC622A2B51D16E0FB379BF68E043D9 /* UIViewController+MemoryLeak.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4C3ED4629E9EDBD4BBB92DE6CDBDC2E /* MLeaksFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7663B5078C0C72906E88DAC2F06B76A6 /* Build configuration list for PBXNativeTarget "MLeaksFinder" */;
+			buildPhases = (
+				2CD2F49B934543866E5ABD529C201CD4 /* Sources */,
+				E1F0967D3B90C898DD0DC75F76D03013 /* Frameworks */,
+				0E233645FC07E98B72F47725ED9084A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLeaksFinder;
+			productName = MLeaksFinder;
+			productReference = 2AD87E5E72B5A84E23970FC59DC38A45 /* libMLeaksFinder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DBBE030E0BBFEAEF2127E64AA6FE097D /* Pods-Block循环引用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0989C6BB5D861DB5875E62E7AA784962 /* Build configuration list for PBXNativeTarget "Pods-Block循环引用" */;
+			buildPhases = (
+				6ACB756901D06FD851D1FD29499305E9 /* Sources */,
+				6C4CDCED8050CD990DAFCC3F6D4894B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ABAC0EA84DE09D68CEC1F05E1385031 /* PBXTargetDependency */,
+			);
+			name = "Pods-Block循环引用";
+			productName = "Pods-Block循环引用";
+			productReference = 52207FDA3A6C70CF4257D0217201386C /* libPods-Block循环引用.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2E5DBA34A2C8E225510265E5D0B85947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C3ED4629E9EDBD4BBB92DE6CDBDC2E /* MLeaksFinder */,
+				DBBE030E0BBFEAEF2127E64AA6FE097D /* Pods-Block循环引用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD2F49B934543866E5ABD529C201CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5E1FAA3FCF40A21417D1188703E898 /* MLeaksFinder-dummy.m in Sources */,
+				A7C5D43EAF7C8511A224A86E1568A539 /* NSObject+MemoryLeak.m in Sources */,
+				10E13117671BB81E3D7DBD58365C6089 /* UIApplication+MemoryLeak.m in Sources */,
+				1C74D1381F086E7E4219634A4070CFAC /* UINavigationController+MemoryLeak.m in Sources */,
+				7179975CF01B391F5D6483AA56A11881 /* UIPageViewController+MemoryLeak.m in Sources */,
+				F9A60749580A946F0D47D120AEA643D3 /* UISplitViewController+MemoryLeak.m in Sources */,
+				1BDAD753F745897EB3BEC7599C17EB50 /* UITabBarController+MemoryLeak.m in Sources */,
+				82CA06702662AA88DC377919CCAE2F41 /* UIView+MemoryLeak.m in Sources */,
+				A9E4B977E2ADABBC67AC75F12C83EC2A /* UIViewController+MemoryLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACB756901D06FD851D1FD29499305E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71416C226BB6BE5D275E0E795B9C1B7D /* Pods-Block循环引用-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ABAC0EA84DE09D68CEC1F05E1385031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLeaksFinder;
+			target = D4C3ED4629E9EDBD4BBB92DE6CDBDC2E /* MLeaksFinder */;
+			targetProxy = 26AD92C1A39AAB97BECAECEB550E0AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D11295BAFAB20C6E41B524247BDC0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8661A3703F1AAD2D84FD9F7754E4AB6B /* Pods-Block循环引用.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5715E52D9E9815A6ED0B7162D2DF1B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9910B220BEB730F81BB14D36B135D244 /* MLeaksFinder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MLeaksFinder/MLeaksFinder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		73726E2E99DC67273B9EE84E0E5BD70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900348150673B07A3513B0BB3EEA5E18 /* Pods-Block循环引用.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8C2C956B343D4165D727C7CF845A198E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9910B220BEB730F81BB14D36B135D244 /* MLeaksFinder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MLeaksFinder/MLeaksFinder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0989C6BB5D861DB5875E62E7AA784962 /* Build configuration list for PBXNativeTarget "Pods-Block循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D11295BAFAB20C6E41B524247BDC0AB /* Debug */,
+				73726E2E99DC67273B9EE84E0E5BD70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7663B5078C0C72906E88DAC2F06B76A6 /* Build configuration list for PBXNativeTarget "MLeaksFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2C956B343D4165D727C7CF845A198E /* Debug */,
+				5715E52D9E9815A6ED0B7162D2DF1B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

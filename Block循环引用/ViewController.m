@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<SetBackgroundColorDelegate>
+
+@property (nonatomic,strong) TestViewController * testViewController;
 
 @end
 
@@ -23,5 +26,29 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clickBtn1:(id)sender {
+    [self push];
+}
 
+- (IBAction)clickBtn2:(id)sender {
+    [self push];
+}
+
+- (IBAction)clickBtn3:(id)sender {
+//    [self push];
+    
+    _testViewController = [[TestViewController alloc] init];
+    _testViewController.delegate = self;
+    [self.navigationController pushViewController:_testViewController animated:YES];
+}
+
+-(void)push{
+    TestViewController * testVC = [[TestViewController alloc] init];
+    testVC.delegate = self;
+    [self.navigationController pushViewController:testVC animated:YES];
+}
+
+-(void)setBackgroundColor:(UIColor *)color{
+    self.view.backgroundColor = color;
+}
 @end
